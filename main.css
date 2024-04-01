@@ -37,6 +37,7 @@ header h2 {
 header h3 {
 	font-size: 130%;
 	font-style: italic;
+    padding-bottom: 20px;
 }
 header img {
 	float: left;
@@ -47,7 +48,9 @@ header img {
 }
 
 /* the styles for the navigation menu */
-
+#nav_menu {
+    margin-bottom: -32px;
+}
 #nav_menu ul {
     list-style-type: none;
     position: relative;
@@ -174,15 +177,11 @@ aside img {
 
 /* the styles for the footer */
 footer {
-    background-color: #931420;
-    clear: both;
+	background-color: #931420;
+	clear: both;
+	text-align: center;
+	color: white;
+	padding: 1em 0;
 }
-
-footer p {
-    text-align: center;
-    color: white;
-    padding: 1em 0;
-}
-
 
 
